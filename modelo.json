@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "width": 600,
+    "height": 800,
+    "bg": "#FFFFFF",
+    "sectionsNames": [
+      "Cabeza",
+      "Torso",
+      "Piernas"
+    ],
+    "attributes": [
+      false,
+      false,
+      false
+    ],
+    "sectionsN": 3
+  },
+  "sections": [
+    {
+      "w": 600,
+      "h": 253,
+      "i": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "w": 600,
+      "h": 295,
+      "i": 1,
+      "x": 0,
+      "y": 217
+    },
+    {
+      "w": 600,
+      "h": 340,
+      "i": 2,
+      "x": 0,
+      "y": 460
+    }
+  ],
+  "grammar": {
+    "base": ["<Cabeza>|<Torso>|<Piernas>"],
+    "Cabeza": [
+      "url%%./assets/sec_Cabeza_JuanDuarte.png%%Todos saben lo que hiciste",
+      "url%%./assets/sec_Cabeza_Ugo.png%%No es enfermedad",
+      "url%%./assets/sec_Cabeza_Pavel.png%%Te gusta viajar lejos",
+      "url%%./assets/sec_Cabeza_Vero.png%%Estás fuera de lugar",
+      "url%%./assets/sec_Cabeza_Sergio.png%%Tienes aires de santidad",
+      "url%%./assets/sec_Cabeza_Maria.png%%El camino es largo y culebrero"
+    ],
+    "Torso": [
+      "url%%./assets/sec_Torso_JuanDuarte.png%%Te confundirán con un actor",
+      "url%%./assets/sec_Torso_Ugo.png%%Se te caerá el helado del cono",
+      "url%%./assets/sec_Torso_Pavel.png%%El trópico no será lo que imaginas",
+      "url%%./assets/sec_Torso_Vero.png%%Te invitarán a una fiesta extraña",
+      "url%%./assets/sec_Torso_Sergio.png%%Encontrarás tentaciones en cada esquina",
+      "url%%./assets/sec_Torso_Maria.png%%El trancón no faltará"
+    ],
+  "Piernas": [
+      "url%%./assets/sec_Piernas_JuanDuarte.png%%Huir corriendo será la mejor opción",
+      "url%%./assets/sec_Piernas_Ugo.png%%Con un café con pan se compone la cosa",
+      "url%%./assets/sec_Piernas_Pavel.png%%Cuidate de los mosquitos",
+      "url%%./assets/sec_Piernas_Vero.png%%Cuidado con lo que deseas",
+      "url%%./assets/sec_Piernas_Sergio.png%%Toma un vasito de chicha para agarrar valor",
+      "url%%./assets/sec_Piernas_Maria.png%%Prueba medios de transporte alternativos"
+    ]
+  },
+  "sketch": "MjYxLDI1MCwyNTksMjE2KiozNDAsMjUxLDMzNiwyMTcqKjIyNyw1MTAsMjI1LDQ2MyoqMzc4LDUxMSwzNzIsNDU5KiozLDI1MCwxMiwyNTAqKjMxLDI0OSw0OCwyNDkqKjY0LDI0OSw4NiwyNDkqKjExMCwyNTEsMTM1LDI1MSoqMTcwLDI1MCwxOTEsMjUwKioyMTcsMjUwLDIzMiwyNTAqKjI1MSwyNTAsMjY4LDI1MCoqMjkxLDI1MCwzMTEsMjUwKiozNDAsMjUwLDM3NCwyNDkqKjQwMywyNTAsNDE1LDI1MCoqNDM4LDI1MCw0NTMsMjUwKio0NzEsMjUxLDQ4MywyNTEqKjUwMywyNTAsNTE3LDI1MCoqNTMxLDI1MCw1NDEsMjUwKio1NjEsMjUwLDU2OSwyNTAqKjU4NSwyNDksNTkwLDI0OSoqMywyMTUsMTUsMjE1KiozNiwyMTUsNjIsMjE1Kio5MSwyMTYsMTE1LDIxNioqMTQxLDIxNSwxNjEsMjE1KioxODksMjE2LDIxNiwyMTYqKjI0OCwyMTUsMjc1LDIxNSoqMjk4LDIxNCwzMTksMjE0KiozNjYsMjE0LDM3NCwyMTQqKjQwMCwyMTUsNDE5LDIxNSoqMzM0LDIxNSwzNDYsMjE1Kio0NDcsMjE1LDQ2NiwyMTUqKjQ4NSwyMTUsNTA3LDIxNSoqNTI0LDIxNCw1NDQsMjE0Kio1NjQsMjE0LDU3OSwyMTQqKjU5MSwyMTQsNTk3LDIxNCoqNCw0NjIsMTUsNDYyKiozMSw0NjMsNDgsNDYzKio2Nyw0NjMsNzYsNDYzKio5NCw0NjMsMTEzLDQ2MyoqMTQzLDQ2MywxNTUsNDYzKioxODMsNDYzLDE5OSw0NjMqKjIxNyw0NjMsMjM3LDQ2MyoqMjUzLDQ2MiwyNzIsNDYyKioyOTQsNDYyLDMwNiw0NjIqKjMzMCw0NjMsMzM5LDQ2MyoqMzU3LDQ2MywzODIsNDYzKiozOTIsNDYzLDQwNCw0NjMqKjQyMCw0NjIsNDQ3LDQ2MioqNDY3LDQ2Miw0ODUsNDYyKio1MDEsNDYyLDUxNSw0NjIqKjUzNSw0NjIsNTQ1LDQ2MioqNTY0LDQ2Miw1NzUsNDYyKio1ODgsNDYyLDU5Myw0NjIqKjQsNTEwLDE4LDUxMCoqMzYsNTExLDUzLDUxMSoqNzAsNTExLDgzLDUxMSoqMTA2LDUxMSwxMjEsNTExKioxMzgsNTEwLDE1MCw1MTAqKjE3MSw1MTAsMTg3LDUxMCoqMjA4LDUxMCwyMjMsNTEwKioyMzcsNTEwLDI0OCw1MTAqKjI2OCw1MDksMjkzLDUwOSoqMzEzLDUwOSwzMzcsNTA5KiozNTMsNTA5LDM3MCw1MDkqKjM5Miw1MDksNDAzLDUwOSoqNDIyLDUwOSw0MzEsNTA5Kio0NDQsNTA5LDQ2Myw1MDkqKjQ3Nyw1MDksNDk2LDUwOSoqNTEwLDUxMCw1MjYsNTEwKio1NDAsNTA5LDU2MCw1MDkqKjU3NCw1MDksNjAyLDUwOSoqMzIsMjEsMTksMjYsMTksMzYsMzAsMzkqKjUxLDI2LDQyLDI4LDQyLDM3LDQ5LDM5LDU1LDMxKio1NSwzMSw2Myw0NioqNjQsMjIsNzAsMzIsODUsMjQsODYsMzMsNjksMzYqKjExMiwzMiwxMDIsMzIsOTYsMjUsOTgsMTUsMTA3LDE0LDEwMSwyMioqMTIyLDE1LDEyOSwxOSwxMjMsMjksMTM1LDMxKioxMTksMjMsMTM0LDIzKioxNjEsMTgsMTUyLDE5LDE0OSwyOSwxNTgsMzAsMTY2LDIxLDE4MCwzMyoqNiwyNzMsMzEsMjczKioxNiwyNzMsMTYsMjkxKio0OCwyNzgsNDEsMjgwLDQyLDI5NSw1MSwyOTIsNTEsMjgyLDQ2LDI4MSoqNjUsMjc5LDY1LDI5NSw2NCwyODQsNzcsMjc1Kio5OCwyNzUsOTEsMjgxLDk2LDI5Miw4NSwyOTQqKjEyNiwyNzgsMTE1LDI4NiwxMzEsMjkxLDEzNSwyODgsMTMwLDI3OCoqMTYsNzY1LDE1LDc5MSoqMTUsNzYzLDI1LDc2NCwxNiw3ODMqKjMzLDc2MywzMyw3NzgqKjYwLDc3OCw1MCw3NzgsNDgsNzcwLDQ4LDc2MCw1OSw3NTYsNTAsNzY5Kio2OSw3NTcsNjksNzY4LDgxLDc1NSoqOTAsNzU1LDkwLDc2NSwxMDQsNzU5LDEwNyw3NzQqKjEyNyw3NTcsMTE4LDc1OSwxMTgsNzcxLDEzMCw3NjksMTI4LDc2MCwxNDEsNzc0KioxNjAsNzUyLDE1MSw3NTUsMTcyLDc2NSwxNzAsNzc1LDE1Nyw3ODgsMTQ2LDc4OQ=="
+}
